@@ -62,6 +62,7 @@ body {
     cursor: pointer;
     user-select: none;
     background-color: #999;
+    border-radius: 20px;
 }
 
 /* Style individual keys */
