@@ -39,7 +39,6 @@ button {
     width: 100%;
 }
 body {
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -50,6 +49,7 @@ body {
 .keyboard {
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 
@@ -95,11 +95,12 @@ body {
     background-color: cornflowerblue;
 }
 #readonly{
-    width: 100%;
+    width: 600px;
     height: 40px;
     border-radius: 20px;
     background-color: #999;
 }
 body{
-    background-color: #000;
+    background-color:white;
 }
+
