@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
 
 .calculator {
     width: 300px;
@@ -10,7 +15,10 @@
 .screen {
     padding: 5px;
     margin: 10px;
-  
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
 }
 
 button {
@@ -21,10 +29,11 @@ button {
 }
 
 .number {
-    background:gold;
+    background: gold;
     border-radius: 10px;
 }
- #display{
+
+#display {
     width: 100%;
     height: 30px;
     border-radius: 20px;
@@ -40,6 +49,7 @@ button {
 #display {
     width: 100%;
 }
+
 body {
     justify-content: center;
     align-items: center;
@@ -51,7 +61,8 @@ body {
 .keyboard {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -76,18 +87,20 @@ body {
 .key.space {
     width: 400px;
     height: 50px;
-  
+
 }
-#small{
+
+#small {
     width: 50px;
     height: 40px;
     border-radius: 5px;
     background-color: #999;
 }
-#key{
+
+#key {
     width: 100px;
     height: 40px;
-  
+
     border-radius: 5px;
     background-color: #999;
 }
@@ -96,13 +109,8 @@ body {
 .key:hover {
     background-color: cornflowerblue;
 }
-#readonly{
-    width: 600px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #999;
-}
-body{
-    background-color:white;
-}
 
+
+body {
+    background-color: white;
+}
