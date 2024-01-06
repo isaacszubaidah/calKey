@@ -8,9 +8,7 @@ function handleDelete() {
 }
 
 
-
 function handleKeyDown(event) {
-    event.preventDefault();
     const key = event.key.toUpperCase();
     const button = Array.from(document.querySelectorAll('.key')).find(
         (btn) => btn.innerText.toUpperCase() === key
@@ -19,7 +17,7 @@ function handleKeyDown(event) {
     if (button) {
         button.style.backgroundColor = 'lightblue';
         handleButtonClick(key);
-    } else if (key === 'DELETE' || key === 'DEL') {
+    } else if (key === 'BACKSPACE') { // Change this line
         // Handle the actual keyboard delete key
         handleDelete();
     }
