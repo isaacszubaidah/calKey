@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Keyboard</title>
     <link rel="stylesheet" href="/cal.css">
 </head>
+
 <body>
+
         <a href="/keyboard.html">keyboard</a>
     </nav>
     <div class="keyboard">
-        <input  type=" text" id="readonly">
+        <input type="text" id="readonly" disabled class="screen">
         <br>
         <br>
         <div class="row">
@@ -28,12 +30,10 @@
             <button class="key">0</button>
             <button class="key">-</button>
             <button class="key">=</button>
-            <button id="key">Delete</button>
-
-
+            <button id="delete">Delete</button>
         </div>
+
         <div class="row">
-          
             <button id="key">Tab</button>
             <button class="key">Q</button>
             <button class="key">W</button>
@@ -49,52 +49,49 @@
             <button class="key">|</button>
 
         </div>
-      
-      
-            <div class="row">
-               
-                <button id="key">CapLk</button>
-                <button class="key">A</button>
-                <button class="key">S</button>
-                <button class="key">D</button>
-                <button class="key">F</button>
-                <button class="key">G</button>
-                <button class="key">H</button>
-                <button class="key">J</button>
-                <button class="key">K</button>
-                <button class="key">L</button>
-                <button class="key">;</button>
-                <button class="key">'</button>
-                <button id="key">Enter</button>
-               
-    
-            </div>
-            <div class="row">
-              
-                <button id="key">Shift</button>
-                <button class="key">Z</button>
-                <button class="key">X</button>
-                <button class="key">C</button>
-                <button class="key">V</button>
-                <button class="key">B</button>
-                <button class="key">N</button>
-                <button class="key">M</button>
-                <button class="key">,</button>
-                <button class="key">.</button>
-                <button class="key">?</button>
-                <button id="key">Shift</button>
-    
-            </div>
-            <div class="row">
-                <button id="small">Ctrl</button>
-                <button id="small">Fn</button>
-                <button id="small">Alt</button>
-                <button class="key space">Space</button>
-                <button id="small" >Alt</button>
-                <button id="small">Ctrl</button>
 
-            </div>
-        
+        <div class="row">
+            <button id="key">CapLk</button>
+            <button class="key">A</button>
+            <button class="key">S</button>
+            <button class="key">D</button>
+            <button class="key">F</button>
+            <button class="key">G</button>
+            <button class="key">H</button>
+            <button class="key">J</button>
+            <button class="key">K</button>
+            <button class="key">L</button>
+            <button class="key">;</button>
+            <button class="key">'</button>
+            <button class="key">Enter</button>
+        </div>
+
+        <div class="row">
+            <button id="key">Shift</button>
+            <button class="key">Z</button>
+            <button class="key">X</button>
+            <button class="key">C</button>
+            <button class="key">V</button>
+            <button class="key">B</button>
+            <button class="key">N</button>
+            <button class="key">M</button>
+            <button class="key">,</button>
+            <button class="key">.</button>
+            <button class="key">?</button>
+            <button id="key">Shift</button>
+        </div>
+
+        <div class="row">
+            <button id="small">Ctrl</button>
+            <button id="small">Fn</button>
+            <button id="small">Alt</button>
+            <button class="key space">Space</button>
+            <button id="small">Alt</button>
+            <button id="small">Ctrl</button>
+        </div>
+
     </div>
+    <script src="scripts.js"></script>
 </body>
+
 </html>
